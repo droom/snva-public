@@ -1,0 +1,68 @@
+body, h1, h2, h3, h4, h5,
+p, small,
+dl, dt, dd,
+figure, figcaption,
+blockquote, cite,
+ul, ol, li{
+	margin: 0;
+	padding: 0; 
+	}
+
+body{
+	padding: 0 10px;
+	background: #f2f2f2;
+}
+
+hr{
+	background-color: #ccc;
+	border:none;
+	height: 1px;
+	margin: 10px 0 8px 0; 
+}
+
+.wrap{
+	max-width: 700px;
+	margin: auto;
+	padding: 0 30px 90px 30px;
+	}
+
+@media screen and (max-width: 700px){
+	.wrap{
+		margin: auto;
+		padding: 0 15px 30px 15px;
+		}
+}
+
+
+.citation{
+	display: block;
+}
+
+.footer{
+	background: #eee;
+	padding: 40px 0 80px 0;
+}
+
+.footer li{
+	line-height: 22px;
+}
+
+.grey{
+	background: #eee;
+}
+.quote{
+	padding-left: 15px;
+	}
+
+.functions div .h4{
+	padding: 8px 0 10px 0; 
+}
+
+.functions div p{
+	margin: 0;
+	padding: 20px 0 60px 0; 
+}
+
+.centre{
+	text-align: center;
+}

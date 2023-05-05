@@ -1,0 +1,131 @@
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.para,
+.list,
+.functions,
+.citation, 
+.definitions, 
+.figcaption,
+.navigation,
+.label,
+.small,
+.footer{
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	}
+
+.list,
+.para{
+	font-size: 18px;
+	line-height: 1.5em;
+	}
+
+@media screen and (max-width: 500px){
+.list,
+.para{
+	font-size: 16px;
+	line-height: 1.45em;
+	}
+}
+
+
+.h3, .h5{
+	font-size: 18px;
+	line-height: 1.5em;
+	}
+
+
+@media screen and (max-width: 500px){
+	.h3, .h5{
+		font-size: 16px;
+		line-height: 1.4em;
+		}
+}
+
+
+
+.functions,
+.navigation,
+.citation, 
+.definitions, 
+.label,
+.small,
+.footer,
+.h2{
+	font-size: 14px;
+	line-height: 1.45em;
+	}
+
+
+.figcaption{
+	font-size: 13px;
+	line-height: 17px;
+	}
+
+.h3{
+	font-family: 'Inter', sans-serif;
+	font-size: 22px;
+	line-height: 1.35em;
+	}
+
+.quote{
+	font-family: 'Libre Baskerville', 'Georgia', serif;
+	font-size: 22px;
+	line-height: 34px;
+	font-weight: 500;
+	border-left: 3px solid black;
+	}
+
+@media screen and (max-width: 500px){
+	.quote{
+		font-size: 19px;
+		line-height: 30px;
+		font-weight: 500;
+		border-left: 3px solid black;
+		}
+}
+
+
+
+.small.quote{
+	font-size: 15px;
+	line-height: 24px;
+	font-weight: 500;
+	border-left: 2px solid green;
+	max-width: 520px;
+	}
+
+.h1, .h2, .h3, .h4, .h5{
+	text-align: center;
+	}
+
+.h1, .h2, .h3, .h4, .h5{
+	font-weight: 600;
+	}
+.citation{
+	font-weight: 500;
+}
+
+.definitions dt{
+	font-weight: 600;
+	}
+
+sup{
+	font-size: 10px;
+	display: inline;
+	margin-left: 5px;
+}
+
+.columns{
+	list-style: none;
+	columns: 2;
+	width: 100%;
+}
+
+ol.contents.list{
+	line-height: 30px;
+	}
